@@ -1,0 +1,1131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/"
+     xml:base="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:untitled-ontology-10="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_between -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_between">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Action"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_date -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Action"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Date"/>
+        <rdfs:comment>in</rdfs:comment>
+        <rdfs:comment>obl_in</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_date_after -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_date_after">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Action"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Date"/>
+        <rdfs:comment>obl_after</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_date_before -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_date_before">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Action"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Date"/>
+        <rdfs:comment>obl_before</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_place -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#action_place">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Action"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Place"/>
+        <rdfs:comment>at</rdfs:comment>
+        <rdfs:comment>in</rdfs:comment>
+        <rdfs:comment>obl_at</rdfs:comment>
+        <rdfs:comment>obl_in</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#aggregate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#aggregate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Query"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Object"/>
+        <rdfs:comment>n subj</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#assoc_ConcPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#assoc_ConcPerson">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Associate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptPerson"/>
+        <rdfs:comment>obl_with</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#assoc_Person -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#assoc_Person">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Associate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person"/>
+        <rdfs:comment>nsubj:pass</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#author_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#author_from">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Place"/>
+        <rdfs:comment>from</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#author_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#author_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Document"/>
+        <rdfs:comment>of</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#conc_of_Document -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#conc_of_Document">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptDocument"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Document"/>
+        <rdfs:comment>of</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#conc_of_Person -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#conc_of_Person">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptPerson"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person"/>
+        <rdfs:comment>of</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#conc_of_conc_Person -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#conc_of_conc_Person">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptPerson"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptPerson"/>
+        <rdfs:comment>of</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_from">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Create"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Place"/>
+        <rdfs:comment>obl_from</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Create"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptDocument"/>
+        <rdfs:comment>obl_in</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_what -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_what">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Create"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Document"/>
+        <rdfs:comment>nsubj:pass</rdfs:comment>
+        <rdfs:comment>obj</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_with">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Create"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person"/>
+        <rdfs:comment>obl_with</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#person_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#person_with">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person"/>
+        <rdfs:comment>obl_with</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#place_specification -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#place_specification">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Place"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Place"/>
+        <rdfs:comment>of</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#qQualifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#qQualifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Query"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Qualifier"/>
+        <rdfs:comment>n obj</rdfs:comment>
+        <rdfs:comment>subj</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#select -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#select">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Query"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Cselect"/>
+        <rdfs:comment>n subj</rdfs:comment>
+        <rdfs:comment>obj</rdfs:comment>
+        <rdfs:comment>subj:pass</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#who_create -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#who_create">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirOP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageOP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Create"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person"/>
+        <rdfs:comment>obl_by</rdfs:comment>
+        <rdfs:comment>subj</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirDP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirDP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_nok -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_nok">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_ok -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_ok">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#especifica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#especifica">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageDP"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptPerson"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>mod</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirDP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageDP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_text -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_text">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#atraduzirDP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageDP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageDP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageDP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#sentence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#sentence">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#what -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#what">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageDP"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#which -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#which">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageDP"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#who -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#who">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#languageDP"/>
+        <rdfs:comment>who</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Action">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Associate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Associate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Action"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+        <rdfs:comment>affiliate</rdfs:comment>
+        <rdfs:comment>associate</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Concept">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Cselect"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+        <rdfs:comment>venue</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptPerson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptPerson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Cselect"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+        <rdfs:comment>Wikidata</rdfs:comment>
+        <rdfs:comment>affiliation</rdfs:comment>
+        <rdfs:comment>id</rdfs:comment>
+        <rdfs:comment>orcid</rdfs:comment>
+        <rdfs:comment>webpage</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Create -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Create">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Action"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Cselect"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+        <rdfs:comment>author</rdfs:comment>
+        <rdfs:comment>create</rdfs:comment>
+        <rdfs:comment>make</rdfs:comment>
+        <rdfs:comment>publish</rdfs:comment>
+        <rdfs:comment>write</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Cselect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Cselect"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Cselect"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Document">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Cselect"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Object"/>
+        <rdfs:comment>Document</rdfs:comment>
+        <rdfs:comment>paper</rdfs:comment>
+        <rdfs:comment>work</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Object">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Object"/>
+        <rdfs:comment>author</rdfs:comment>
+        <rdfs:comment>person</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Cselect"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Qualifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Qualifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>n who</rdfs:comment>
+        <rdfs:comment>what</rdfs:comment>
+        <rdfs:comment>which</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Query -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Query">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#LanguageModel"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>List</rdfs:comment>
+        <rdfs:comment>Show</rdfs:comment>
+        <rdfs:comment>be</rdfs:comment>
+        <rdfs:comment>Mention</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x3">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/t2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/t1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x4">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S4</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#conc_of_conc_Person"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#ConceptPerson"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_name"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                                        <swrl:argument2>Wikidata</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_ok"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S9</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#qQualifier"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x3"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Create"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_name"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x3"/>
+                                        <swrl:argument2>who</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#select"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_ok"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>SROK1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#Qualifier"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_text"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                                <swrl:argument2>which</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_ok"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S7</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_from"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_with"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x3"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#author_from"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x3"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S6</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_text"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x3"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/t2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_text"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/t1"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#notEqual"/>
+                                        <swrl:arguments rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/t1"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/t2"/>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_what"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_what"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x3"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x4"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_nok"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-2</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#who_create"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_what"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_ok"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S5</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_name"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x3"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#create_what"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_ok"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#select"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#who"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                                <swrl:argument2>true</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#qQualifier"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#has_name"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                        <swrl:argument2>who</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#who_create"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10#entity_ok"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ipr/ontologies/2023/6/untitled-ontology-10/x1"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
