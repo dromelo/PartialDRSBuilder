@@ -1,0 +1,102 @@
+qN	qID	type	question	template-id
+1	Q0002	SINGLE_FACT	 "Which papers did the author Rodriguez, S. write?" 	TC01
+2	Q0004	SINGLE_FACT	 "Which publications did Neamati, D. author?" 	TC01
+3	Q0012	SINGLE_FACT	 "What are the papers written by Omer L.?" 	TC01
+4	Q0026	SINGLE_FACT	 "What are the papers written by the person João Manuel R. S. Tavares?" 	TC01
+5	Q0091	SINGLE_FACT	 "What are the papers written by Matti O. Jokinen?" 	TC01
+6	Q0007	SINGLE_FACT	 "The author Sameh S. Askar is primarily affiliated to which institution?" 	TC02
+7	Q0037	SINGLE_FACT	 "Mention the primary affiliation of Khaled Salah." 	TC02
+8	Q0049	SINGLE_FACT	 "What is the primary affiliation of the author Shengli W.?" 	TC02
+9	Q0065	SINGLE_FACT	 "János Pach is primarily affiliated to which institution?" 	TC02
+10	Q0085	SINGLE_FACT	 "Zukerman, I. is primarily affiliated to which institution?" 	TC02
+11	Q0008	SINGLE_FACT	 "What is the ORCID of the person Matti R.?" 	TC03
+12	Q0018	SINGLE_FACT	 "Mention the ORCID of the researcher El-Gayar, Omar F.." 	TC03
+13	Q0021	SINGLE_FACT	 "What is the ORCID of the person Goele Pipeleers?" 	TC03
+14	Q0024	SINGLE_FACT	 "What is the ORCID of the person Hirschfeld, James W. P.?" 	TC03
+15	Q0029	SINGLE_FACT	 "Mention the ORCID of the researcher Turcanu, Ion." 	TC03
+16	Q0001	SINGLE_FACT	 "Show the Wikidata ID of the person Robert Schober." 	TC04
+17	Q0006	SINGLE_FACT	 "What is the Wikidata ID of Pablo G. Tahoces?" 	TC04
+18	Q0022	SINGLE_FACT	 "The author Daniel S. Weld is associated with which Wikidata identifier?" 	TC04
+19	Q0031	SINGLE_FACT	 "What is the Wikidata identifier of the author Borko Furht?" 	TC04
+20	Q0047	SINGLE_FACT	 "What is the Wikidata ID of Offutt, A. Jefferson?" 	TC04
+21	Q0003	SINGLE_FACT	 "What is the webpage of the person Mohammad Soleymani?" 	TC05
+22	Q0011	SINGLE_FACT	 "What is the webpage of the author Peter W. Glynn?" 	TC05
+23	Q0036	SINGLE_FACT	 "What is the webpage of the author Wang, Chao?" 	TC05
+24	Q0046	SINGLE_FACT	 "What is the webpage of the author Christian Wagner?" 	TC05
+25	Q0072	SINGLE_FACT	 "What is the webpage of the person Fardoun, Habib?" 	TC05
+26	Q0102	MULTI_FACT	 "What are the venues in which Ke Wang published?" 	TC11
+27	Q0105	MULTI_FACT	 "Which venues has Amit P. published in?" 	TC11
+28	Q0117	MULTI_FACT	 "Mention the venues in which G. Leduc published." 	TC11
+29	Q0145	MULTI_FACT	 "List the venues in which David Doukhan published." 	TC11
+30	Q0127	MULTI_FACT	 "Which papers did the authors Frederic T. Chong and Susmit Biswas co-write?" 	TC12
+31	Q0136	MULTI_FACT	"Which papers did the authors C. Raymundo Ibañez and D. Vásquez Zúñiga co-write?" 	TC12
+32	Q0115	MULTI_FACT	"What are the publications written by the authors J. Rowland and Adrian Freed in collaboration?"	TC12
+33	Q0108	MULTI_FACT	 "In AGIT Journal, which papers did the author Ralf Bill publish?" 	TC13
+34	Q0116	MULTI_FACT	 "In Int. J. Robotics Autom., which papers did the author Kin Hong Wong publish?" 	TC13
+35	Q0132	MULTI_FACT	 "Which papers did C. F. Broomfield publish in Comput. Commun. Rev.?" 	TC13
+36	Q0104	MULTI_FACT	 "Who are the co-authors of Shalini Chandra?" 	TC14
+37	Q0106	MULTI_FACT	 "Mention the co-authors of A. P. Felty." 	TC14
+38	Q0113	MULTI_FACT	 "With which other authors has Thevenaz, L. written papers?" 	TC14
+39	Q0143	MULTI_FACT	 "List the co-authors of Xueming Li." 	TC14
+40	Q0107	MULTI_FACT	 "Which papers did Ji, Shaoxiong publish in the last 8 years?" 	TC15
+41	Q0139	MULTI_FACT	 "List the papers published by Huang, C. in the last 8 years." 	TC15
+42	Q0141	MULTI_FACT	 "List the papers published by Mohsen Vatani in the last three years." 	TC15
+43	Q0142	MULTI_FACT	 "Which papers did the author Yang, Meng publish in the last four years?" 	TC15
+44	Q0119	MULTI_FACT	 "Which papers did the author K. Cheng write with the author from Hong Kong University of Science and Technology?" 	TC16
+45	Q0125	MULTI_FACT	"Which papers did the author Dimitrov, Dimitar K. write with the author from ETH Zürich?" 	TC16
+46	Q0137	MULTI_FACT	 "Which papers did the author Gong, P. write with the author from Beijing Institute of Technology, School of Mechatronical Engineering, China?"	TC16
+47	Q0101	MULTI_FACT	 "Find the paper written by Carlee Joe-Wong with Liang Zheng that was published in INFOCOM." 	TC17
+48	Q0109	MULTI_FACT	 "In Inf. Serv. Use, which paper written by Sabrina K. with Julie McKinney was published?" 	TC17
+49	Q0123	MULTI_FACT	 "Find the paper written by Wen-Hsiung Lee with Paul D. Gader that was published in IEEE Trans. Geosci. Remote. Sens.." 	TC17
+50	Q1145	MULTI_FACT	"Mention the venue of the paper 'Edge-Coloring Bipartite Graphs' authored by Ajai K.."	TC17
+qN	qID	type	rephrased-question	template-id
+51	Q0002	SINGLE_FACT	 "What are the papers written by the person Sara Rodriguez?" 	TC01
+52	Q0004	SINGLE_FACT	 "What are the papers written by the person Daniel Neamati?" 	TC01
+53	Q0012	SINGLE_FACT	 "What are the papers written by the person Omer L.?" 	TC01
+54	Q0026	SINGLE_FACT	 "What are the papers written by João Manuel R. S. Tavares?" 	TC01
+55	Q0091	SINGLE_FACT	 "Which publications did Matti O. Jokinen author?" 	TC01
+56	Q0007	SINGLE_FACT	 "Sameh S. Askar is primarily affiliated to which institution?" 	TC02
+57	Q0037	SINGLE_FACT	 "What is the primary affiliation of the author Khaled Salah?" 	TC02
+58	Q0049	SINGLE_FACT	 "Shengli W. is primarily affiliated to which institution?" 	TC02
+59	Q0065	SINGLE_FACT	 "What is the primary affiliation of János Pach?" 	TC02
+60	Q0085	SINGLE_FACT	 "Find the primary affiliation of Ingrid Zukerman." 	TC02
+61	Q0008	SINGLE_FACT	 "What is the ORCID of Matti Rossi?" 	TC03
+62	Q0018	SINGLE_FACT	 "What is the ORCID of the person El-Gayar, Omar F.?" 	TC03
+63	Q0021	SINGLE_FACT	 "What is the ORCID of Goele Pipeleers?" 	TC03
+64	Q0024	SINGLE_FACT	 "What is the ORCID of James W. P. Hirschfeld?" 	TC03
+65	Q0029	SINGLE_FACT	 "What is the ORCID of Turcanu, Ion?" 	TC03
+66	Q0001	SINGLE_FACT	 "What is the Wikidata identifier of the author Robert S.?" 	TC04
+67	Q0006	SINGLE_FACT	 "What is the Wikidata identifier of the author P. G. Tahoces?" 	TC04
+68	Q0022	SINGLE_FACT	 "What is the Wikidata identifier of the author Daniel S. Weld?" 	TC04
+69	Q0031	SINGLE_FACT	 "What is the Wikidata ID of Borko Furht?" 	TC04
+70	Q0047	SINGLE_FACT	 "The author Offutt, A. Jefferson is associated with which Wikidata identifier?" 	TC04
+71	Q0003	SINGLE_FACT	 "Mention the webpage of the researcher Mohammad S.." 	TC05
+72	Q0011	SINGLE_FACT	 "What is the webpage of the person Peter W. Glynn?" 	TC05
+73	Q0036	SINGLE_FACT	 "Mention the webpage of the researcher Wang, Chao." 	TC05
+74	Q0046	SINGLE_FACT	 "What is the webpage of Christian Wagner?" 	TC05
+75	Q0072	SINGLE_FACT	 "What is the webpage of the author Habib Fardoun?" 	TC05
+76	Q0102	MULTI_FACT	 "Mention the venues in which Wang, Ke published." 	TC11
+77	Q0105	MULTI_FACT	 "In which conferences or journals has Amit P. published papers?" 	TC11
+78	Q0117	MULTI_FACT	 "List the venues in which G. Leduc published." 	TC11
+79	Q0145	MULTI_FACT	 "Which venues has David Doukhan published in?" 	TC11
+80	Q0127	MULTI_FACT	 "What are the papers written by Frederic T. Chong and Susmit Biswas together?" 	TC12
+81	Q0136	MULTI_FACT	"What are the publications written by the authors C. Raymundo Ibañez and D. Vásquez Zúñiga in collaboration?" 	TC12
+82	Q0115	MULTI_FACT	"Which papers did the authors Jess Rowland and Adrian Freed co-write?"	TC12
+83	Q0108	MULTI_FACT	 "Which papers did Ralf Bill publish in AGIT Journal?" 	TC13
+84	Q0116	MULTI_FACT	 "What publications did Kin Hong Wong publish in Int. J. Robotics Autom.?" 	TC13
+85	Q0132	MULTI_FACT	 "In Comput. Commun. Rev., which papers did C. F. Broomfield publish?" 	TC13
+86	Q0104	MULTI_FACT	 "List the co-authors of Shalini C.." 	TC14
+87	Q0106	MULTI_FACT	 "Who are the co-authors of A. P. Felty?" 	TC14
+88	Q0113	MULTI_FACT	 "Mention the co-authors of Thevenaz, L.." 	TC14
+89	Q0143	MULTI_FACT	 "Mention the co-authors of Li, Xueming." 	TC14
+90	Q0107	MULTI_FACT	 "In the last 8 years, which papers did Shaoxiong Ji publish?" 	TC15
+91	Q0139	MULTI_FACT	 "Which papers did Changcheng Huang publish in the last 8 years?" 	TC15
+92	Q0141	MULTI_FACT	 "Which papers did the author M. Vatani publish in the last 3 years?" 	TC15
+93	Q0142	MULTI_FACT	 "List the papers published by Meng Yang in the last four years." 	TC15
+94	Q0119	MULTI_FACT	 "List the papers published by Kwang-Ting Cheng with the author from Hong Kong University of Science and Technology." 	TC16
+95	Q0125	MULTI_FACT	"What research papers did Dimitrov, Dimitar K. publish with the author affiliated to ETH Zürich, Switzerland?" 	TC16
+96	Q0137	MULTI_FACT	 "What research papers did Peng Gong publish with the author affiliated to Beijing Institute of Technology, School of Mechatronical Engineering, China?" 	TC16
+97	Q0101	MULTI_FACT	 "Mention the paper written by Joe-Wong, Carlee with Liang Zheng that was published in IEEE International Conference on Computer Communications." 	TC17
+98	Q0109	MULTI_FACT	 "Which paper written by Sabrina Kurtz-Rossi with Julie McKinney was published in Inf. Serv. Use?" 	TC17
+99	Q0123	MULTI_FACT	 "In IEEE Trans. Geosci. Remote. Sens., which paper written by Lee, W. with P. D. Gader was published?" 	TC17
+100	Q1145	MULTI_FACT	"Find the venue of the paper 'Edge-Coloring Bipartite Graphs' authored by Ajai K.."	TC17
