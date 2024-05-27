@@ -9,6 +9,8 @@ Irene Pimenta Rodrigues (ipr@uevora.pt), Department of Informatics, University o
 # PartialDRSBuilder
 The partial DRS builder tool receives a natural language sentence and translates it into a Partial DRS.
 
+The PartialDRS.zip contains the Maven-Java project code.
+
 ## Query Ontology
 
 Query Ontology (QueryOntology.rdf) represents the natural language concepts conveyed by the questions used to query the DBLP RDF knowledge base.
