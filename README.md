@@ -9,6 +9,10 @@ Irene Pimenta Rodrigues (ipr@uevora.pt), Department of Informatics, University o
 # PartialDRSBuilder
 The partial DRS builder tool receives a natural language sentence and translates it into a Partial DRS.
 
+## Query Ontology
+
+Query Ontology (QueryOntology.rdf) represents the natural language concepts conveyed by the questions used to query the DBLP RDF knowledge base.
+
 ## Question Dataset
 
 The dataset-100questions.tsv is organized as follows:
