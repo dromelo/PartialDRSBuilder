@@ -9,7 +9,7 @@ Irene Pimenta Rodrigues (ipr@uevora.pt), Department of Informatics, University o
 # PartialDRSBuilder
 The partial DRS builder tool receives a natural language sentence and translates it into a Partial DRS.
 
-The PartialDRS.zip contains the Maven-Java project code.
+The PartialDRS-code.zip contains the Java code of the partial DRS builder tool (part of a Maven Java project).
 
 ## Query Ontology
 
